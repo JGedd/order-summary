@@ -11,40 +11,43 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body>
-    <div class="card">
-      <img
-        src="images/illustration-hero.svg"
-        alt="illustration of girl listening to music"
-        class="card__image"
-      />
-      <div class="order-summary">
-        <h2 class="order-summary__heading">Order Summary</h2>
-        <p class="order-summary__paragraph">
-          You can now listen to millions of songs, audiobooks, and podcasts on
-          any device anywhere you like!
-        </p>
-      </div>
-
-      <div class="subscription">
-        <img src="./images/icon-music.svg" alt="" />
-        <div class="annual-plan">
-          <h3 class="annual-plan__heading">Annual Plan</h3>
-          <p class="annual-plan__paragraph">$59.99 /year</p>
+    <main>
+      <div class="card">
+        <img
+          src="images/illustration-hero.svg"
+          alt="illustration of girl listening to music"
+          class="card__image"
+        />
+        <div class="order-summary">
+          <h2 class="order-summary__heading">Order Summary</h2>
+          <p class="order-summary__paragraph">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
         </div>
-
-        <div class="change">
-          <a href="#" class="change__link">Change</a>
+  
+        <div class="subscription">
+          <img src="./images/icon-music.svg" alt="" />
+          <div class="annual-plan">
+            <h3 class="annual-plan__heading">Annual Plan</h3>
+            <p class="annual-plan__paragraph">$59.99 /year</p>
+          </div>
+  
+          <div class="change">
+            <a href="#" class="change__link">Change</a>
+          </div>
+        </div>
+  
+        <div class="payment">
+          <button class="btn" link="#payment">Proceed to Payment</button>
+          <p><a href="#" class="payment__link">Cancel Order</a></p>
         </div>
       </div>
-
-      <div class="payment">
-        <button class="btn" link="#">Proceed to Payment</button>
-        <p><a href="#" class="payment__link">Cancel Order</a></p>
-      </div>
-    </div>
-  </body>
+    </body>
+    </main>
+    
 </html>
